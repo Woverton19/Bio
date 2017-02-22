@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="style.css">
+	<title>Project</title>
+</head>
+<body>
+<div id="container">	
+	<div class="row">
+		<div class="jumbotron">
+		    <h1 align="center">Simon</h1> 
+		    <p align="center">Lets Play Simon.</p>
+		    <div id="levels"></div> 
+		  </div>
+
+		
+	</div>
+
+		
+	<div class="row" id="playSection">
+		
+			<div class="row" id="part1">
+				<div id="blueBox" class="color blue"></div>			
+				<div id="redBox" class="color red"></div>
+			</div>
+		
+			<div class="row" id="part2">
+				<div id="yellowBox" class="color yellow"></div>			
+				<div id="greenBox" class="color green"></div>
+			</div>
+		
+	</div>
+	<div id="place"></div>	
+
+	<button class="startButton">Start Game</button>
+	<button class="stopButton">End Game</button>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<p>Would you Like to continue the game?</p>
+				<button id="yesButton">Yes</button>
+				<button id="noButton">No</button>
+				<span class="close"></span>
+		</div>
+	</div>
+	<div id="userBox">
+		<div id="userName">Name: </div>
+		<div id="userStats">Level: </div> 
+
+	</div>
+	
+</div>
+
+
+<!-- <script src="java1.js" type="text/javascript"></script> -->
+<script src="app2.js" type="text/javascript"></script>
+<!-- <script src="bundle.js"></script> -->
+
+</body>
+
+
+</html>

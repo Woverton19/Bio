@@ -1,0 +1,71 @@
+body  {
+
+
+} 
+
+#container {
+	margin: auto;
+    width: 60%;
+    textAlign: 'center';
+    padding: 10px;
+}
+#playSection {
+	margin: auto;
+    width: 60%;
+    
+    padding: 10px;
+	
+}
+#blueBox {
+	float: left;
+	width: 125px;
+	height: 125px;
+	background-color: blue;
+	border-radius: 100% 0 0 0;
+	text-align: bottom;
+	border-style: solid;
+	
+	/*margin: 3px 0px;*/
+	
+
+}
+#redBox {
+	float: right;
+	width: 125px;
+	height: 125px;
+	background-color: red;
+	border-radius: 0 100% 0 0;
+	text-align: center;
+	border-style: solid;
+	
+}
+#yellowBox {
+	float: left;
+	width: 125px;
+	height: 125px;
+	background-color: yellow;
+	border-radius: 0 0 0 100%;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+	border-style: solid;
+
+	
+}
+#greenBox {
+	float: right;
+	width: 125px;
+	height: 125px;
+	background-color: green;
+	border-radius: 0 0 100% 0;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+	border-style: solid;
+	
+}
+#part1 , #part2 {
+	width:275px; 
+	height: 125px;
+}
+h1 , p {
+	text-align: center;
+}
